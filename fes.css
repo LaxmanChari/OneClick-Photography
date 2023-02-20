@@ -1,0 +1,135 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'lato',sans-serif;
+}
+h3{
+  
+  font-size: 50px;
+  text-align: center;
+
+}
+.head p{
+  padding-left: 50px;
+  font-size: 25px;
+}
+.b{
+  
+  
+  font-size: 23px;
+}
+
+
+.pics{
+display: flex;
+max-width: 1200px;
+width: 100%;
+flex-wrap: wrap;
+justify-content: center;
+padding-left: 20px;
+
+
+
+ }
+ .im img{
+  display: inline;
+  width:100%;
+  background-image: cover;
+
+ }
+ 
+img {
+  width: 300px;
+  height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+   padding: 5px;
+   border-radius: 5%;
+}
+.container{
+    display: inline;
+    justify-content: right;
+    padding-right: 40px;
+   
+}
+.box{
+  background: black;
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+  float: right;
+  border-radius: 15px;
+}
+.box h2{
+  text-align: center;
+  color: aliceblue;
+}
+.b {
+  color: aliceblue;
+  padding-left: 10px;
+}
+
+.green{
+  text-align: center;
+}
+.bu {
+  background-color: greenyellow;
+  
+}
+.button {
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  
+}
+h2{
+  font-size: 25px;
+  text-align: center;
+}
+.container1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  background:black;
+  width:270px;
+  height: 270px;
+  margin: 10px;
+  border-radius: 15px;
+  
+}
+.card-image{
+  background-color: aliceblue;
+  height: 210px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card-1{
+  background-image: url('https://preview.redd.it/et8kutu0s8n21.jpg?auto=webp&s=8a743f0ba4d97e33c7150d6aff8ce166f0e3915b');
+}
+.card-2{
+  background-image: url('https://ae01.alicdn.com/kf/Ha9fc5aa260f6444b89127974f2cd76bcl.jpg');
+}
+.card-3{
+  background-image: url('https://images.unsplash.com/photo-1605446994677-9b99e0d6647f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YWR2ZW50dXJlcnxlbnwwfHwwfHw%3D&w=1000&q=80');
+}
+.card-4{
+  background-image: url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JvdXAlMjBvZiUyMGZyaWVuZHxlbnwwfHwwfHw%3D&w=1000&q=80');
+}
+
+.card a{
+  text-align: center;
+  color: aliceblue;
+  display: block;
+  text-decoration: none;
+  
+}
